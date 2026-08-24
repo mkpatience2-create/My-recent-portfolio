@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Patience Katlego's Portfolio</title>
+<meta name="description" content="Patience Katlego Mothothi — Mathematical Sciences, technology, software and innovation portfolio.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="grain"></div>
+<div class="cursor"></div>
+
+<header>
+  <nav class="nav">
+    <a href="#home" class="logo">Mothothi <span>P.K</span></a>
+    <button class="menu" aria-label="Menu"><i></i><i></i></button>
+    <div class="links">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <a href="#contact" class="talk">Let's talk <b>↗</b></a>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-copy reveal">
+    <p class="eyebrow"><span></span> MATHEMATICAL SCIENCES × TECHNOLOGY</p>
+    <h1>Building ideas<br>with <em>purpose.</em></h1>
+    <p class="intro">I'm Mothothi Patience a final-year Mathematical Sciences student who loves turning problems into thoughtful digital experiences, products and solutions.</p>
+    <div class="actions">
+      <a href="#work" class="btn main-btn">Explore my work <b>↗</b></a>
+      <a href="Patience-Katlego-CV.pdf" class="btn outline-btn" target="_blank">View CV ↗</a>
+    </div>
+    <p class="open"><i></i> Available for graduate opportunities in 2027</p>
+  </div>
+
+  <div class="hero-visual reveal">
+    <div class="glow-orb"></div>
+    <div class="photo-frame">
+      <img id="profileImage" src="images/profile/patience.jpg" alt="Add your portrait to images/profile/patience.jpg"
+           onerror="this.style.display='none'; this.parentElement.classList.add('photo-missing')">
+      <div class="photo-placeholder">
+        <span>YOUR PHOTO</span>
+        <strong>Patience<br><em>Katlego.</em></strong>
+        <small>Add: images/profile/patience.jpg</small>
+      </div>
+      <div class="photo-overlay"></div>
+      <div class="photo-name">Patience <em>Katlego</em></div>
+    </div>
+    <div class="float-card fc1"><b>01</b><span>Think</span></div>
+    <div class="float-card fc2"><b>∞</b><span>Build</span></div>
+    <div class="star st1">✦</div><div class="star st2">✧</div>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="section-title reveal"><p class="eyebrow">01 / ABOUT</p><h2>More than a <em>developer.</em></h2></div>
+  <div class="about-grid">
+    <p class="statement reveal">I enjoy sitting at the intersection of <em>mathematics, technology and ideas.</em></p>
+    <div class="about-copy reveal">
+      <p>My Mathematical Sciences background has taught me to think analytically, recognise patterns and approach problems from different angles. I complement that foundation with programming, web development, data and product-focused projects.</p>
+      <p>I've worked on university projects, hackathons and innovation concepts spanning finance, accessibility, student support and knowledge preservation.</p>
+      <div class="stats"><div><b>2026</b><span>Final year</span></div><div><b>05+</b><span>Projects & concepts</span></div><div><b>∞</b><span>Still learning</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="work" class="section work-section">
+  <div class="section-title reveal"><p class="eyebrow">02 / SELECTED WORK</p><h2>Ideas I've <em>worked on.</em></h2><p class="section-sub">Some are live. Some are archived. Some are still becoming.</p></div>
+
+  <div class="project-grid">
+
+    <article class="project project-large reveal">
+      <div class="project-image pocketmoney">
+        <img src="images/pocketmoney/dashboard.png" alt="PocketMoney project screenshot"
+             onerror="this.style.display='none'; this.parentElement.classList.add('image-missing')">
+        <div class="image-placeholder"><span>ADD PROJECT IMAGE</span><small>images/pocketmoney/dashboard.png</small></div>
+        <label>01 · FINAL YEAR PROJECT</label>
+        <span class="status">IN DEVELOPMENT</span>
+      </div>
+      <div class="project-body">
+        <div><small>AI × FINANCE</small><h3>PocketMoney</h3><p>AI-assisted financial management dashboard designed to help users understand spending patterns, track finances and receive practical recommendations.</p></div>
+        <button class="see-more" data-project="pocketmoney">See more <span>↗</span></button>
+        <div class="chips"><span>HTML/CSS/JS</span><span>Data</span><span>AI</span></div>
+      </div>
+    </article>
+
+    <article class="project reveal">
+      <div class="project-image continuum">
+        <img src="images/continuum/home.png" alt="Continuum project screenshot"
+             onerror="this.style.display='none'; this.parentElement.classList.add('image-missing')">
+        <div class="image-placeholder"><span>ADD PROJECT IMAGE</span><small>images/continuum/home.png</small></div>
+        <label>02 · INNOVATION</label><span class="status concept">CONCEPT</span>
+      </div>
+      <div class="project-body">
+        <div><small>KNOWLEDGE × INNOVATION</small><h3>Continuum</h3><p>A platform concept for preserving unfinished ideas, research and expertise so useful knowledge can be discovered and continued.</p></div>
+        <button class="see-more" data-project="continuum">See more <span>↗</span></button>
+        <div class="chips"><span>Product</span><span>Web</span><span>Innovation</span></div>
+      </div>
+    </article>
+
+    <article class="project reveal">
+      <div class="project-image thuthuka">
+        <video class="project-video" muted autoplay loop playsinline preload="metadata">
+          <source src="videos/thuthuka-demo.mp4" type="video/mp4">
+        </video>
+        <div class="video-fallback">THUTHUKA<span>AI</span><br><small>Short UI demo included</small></div>
+        <label>03 · AI × ACCESSIBILITY</label><span class="status concept">CONCEPT</span>
+      </div>
+      <div class="project-body">
+        <div><small>EDTECH × AI</small><h3>ThuthukaAI</h3><p>An inclusive AI education platform concept using adaptive learning and accessibility-focused speech technologies.</p></div>
+        <button class="see-more" data-project="thuthukaai">See more <span>↗</span></button>
+        <div class="chips"><span>AI</span><span>UX/UI</span><span>Accessibility</span></div>
+      </div>
+    </article>
+
+    <article class="project reveal">
+      <div class="project-image mediconnect">
+        <video class="project-video" muted autoplay loop playsinline preload="metadata">
+          <source src="videos/mediconnect-demo.mp4" type="video/mp4">
+        </video>
+        <div class="video-fallback">MEDICONNECT<br><small>Video demo included</small></div>
+        <label>04 · HEALTH TECH</label><span class="status concept">CONCEPT</span>
+      </div>
+      <div class="project-body">
+        <div><small>HEALTH × AI × DIGITAL</small><h3>MediConnect</h3><p>A smart health-monitoring concept presented through a website and device-oriented experience, exploring connected health information and user support.</p></div>
+        <button class="see-more" data-project="mediconnect">See more <span>↗</span></button>
+        <div class="chips"><span>Web</span><span>AI Concept</span><span>Health Tech</span></div>
+      </div>
+    </article>
+
+    <article class="project reveal">
+      <div class="project-image unilink">
+        <img src="images/unilink/project.png" alt="UniLink project screenshot"
+             onerror="this.style.display='none'; this.parentElement.classList.add('image-missing')">
+        <div class="image-placeholder"><span>ADD PROJECT IMAGE</span><small>images/unilink/project.png</small></div>
+        <label>05 · FIRST YEAR</label><span class="status archived">ARCHIVED</span>
+      </div>
+      <div class="project-body">
+        <div><small>C++ × DATA STRUCTURES</small><h3>UniLink</h3><p>A first-year C++ project designed to help undergraduate students adapt to university life and access support. Built around Stack and Queue data structures.</p></div>
+        <button class="see-more" data-project="unilink">See more <span>↗</span></button>
+        <div class="chips"><span>C++</span><span>Stack</span><span>Queue</span></div>
+      </div>
+    </article>
+
+    <article class="project reveal">
+      <div class="project-image hult">
+        <img src="images/hult-prize/project.png" alt="Hult Prize project screenshot"
+             onerror="this.style.display='none'; this.parentElement.classList.add('image-missing')">
+        <div class="image-placeholder"><span>ADD PROJECT IMAGE</span><small>images/hult-prize/project.png</small></div>
+        <label>06 · HULT PRIZE</label><span class="status unfinished">UNFINISHED</span>
+      </div>
+      <div class="project-body">
+        <div><small>ENTREPRENEURSHIP × IMPACT</small><h3>Hult Prize Project</h3><p>An unfinished social-impact project developed around a problem worth solving. The case study records the idea, contribution and lessons from the process.</p></div>
+        <button class="see-more" data-project="hult">See more <span>↗</span></button>
+        <div class="chips"><span>Innovation</span><span>Teamwork</span><span>Impact</span></div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section id="skills" class="section skills-section">
+ <div class="section-title reveal"><p class="eyebrow">03 / TOOLKIT</p><h2>What I <em>bring.</em></h2></div>
+ <div class="skills">
+   <div class="skill reveal"><b>01</b><h3>Development</h3><p>HTML · CSS · JavaScript · C++ · SQL · PL/SQL · R</p></div>
+   <div class="skill reveal"><b>02</b><h3>Tools</h3><p>Git · GitHub · VS Code · Oracle SQL Developer</p></div>
+   <div class="skill reveal"><b>03</b><h3>Problem Solving</h3><p>Analytical thinking · Algorithms · Data structures · Mathematics</p></div>
+   <div class="skill reveal"><b>04</b><h3>Exploring</h3><p>Cloud · Networking · Data · AI · Digital products</p></div>
+ </div>
+</section>
+
+<section class="section experience">
+ <div class="section-title reveal"><p class="eyebrow">04 / EXPERIENCE</p><h2>Learning through <em>doing.</em></h2></div>
+ <div class="timeline">
+   <div class="time-row reveal"><span>2026 — PRESENT</span><div><h3>Tech & Resource Officer</h3><p>Mathematics Society — supporting technical resources, digital platforms and academic programme activities.</p></div></div>
+   <div class="time-row reveal"><span>2025 — 2026</span><div><h3>Projects, Hackathons & Innovation</h3><p>Developing and exploring practical solutions across finance, AI, accessibility, student support and knowledge preservation.</p></div></div>
+   <div class="time-row reveal"><span>UNIVERSITY</span><div><h3>BSc Mathematical Sciences</h3><p>Foundation in mathematics, statistics, programming, algorithms and data-oriented problem solving.</p></div></div>
+ </div>
+</section>
+
+<section id="contact" class="contact">
+ <div class="contact-inner reveal">
+   <p class="eyebrow">05 / CONTACT</p>
+   <h2>Let's build something<br><em>worth remembering.</em></h2>
+   <p>Have an opportunity, project or idea?</p>
+   <a class="email" href="mailto:mkpatience2@gmail.com">mkpatience2@gmail.com <span>↗</span></a>
+   <div class="social"><a href="https://github.com/mkpatience2-create" target="_blank">GitHub ↗</a><a href="https://www.linkedin.com/" target="_blank">LinkedIn ↗</a><a href="Patience-Katlego-CV.pdf" target="_blank">CV ↗</a></div>
+ </div>
+</section>
+</main>
+
+<footer><span>© 2026 Patience Katlego</span><span>Made with curiosity & ✦</span></footer>
+
+<div class="modal" id="projectModal" aria-hidden="true">
+ <div class="modal-backdrop"></div>
+ <div class="modal-card">
+   <button class="close" aria-label="Close">×</button>
+   <p class="eyebrow" id="modalEyebrow"></p>
+   <h2 id="modalTitle"></h2>
+   <p class="modal-status" id="modalStatus"></p>
+   <div class="modal-image"><img id="modalImage" src="" alt=""><video id="modalVideo" controls playsinline preload="metadata"></video><div id="modalImagePlaceholder"></div></div>
+   <div class="modal-grid">
+     <div><h4>ABOUT THE PROJECT</h4><p id="modalAbout"></p></div>
+     <div><h4>MY ROLE / FOCUS</h4><p id="modalRole"></p></div>
+   </div>
+   <div class="modal-chips" id="modalChips"></div>
+   <p class="archive-note" id="modalNote"></p>
+ </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
